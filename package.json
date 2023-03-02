@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve ./"
+    "start": "serve ./",
+    "deploy": "vercel --prod"
   },
   "author": "armandojes",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^14.2.0"
+    "serve": "^14.2.0",
+    "vercel": "^28.16.12"
   }
 }

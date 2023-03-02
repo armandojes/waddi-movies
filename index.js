@@ -183,6 +183,10 @@ function createFavoriteElement (favoriteMovieInfo) {
   return wraper;
 };
 
+/**
+ * create a html element that represents not found results
+ * @return {HTMLElement} 
+ */
 function create404Result() {
   const Wrapper = document.createElement('div');
   const bigText = document.createElement('div');
