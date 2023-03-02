@@ -1,10 +1,10 @@
 /**
  * @typedef  {object} MovieType - an object that represent the data os single movie
- * @property {Array<string>} favoriteMovieInfo.genres - the mogenre of the movie
- * @property {string} favoriteMovieInfo.image - the url of the image of the movie
- * @property {string} favoriteMovieInfo.title - the title of the movie
- * @property {string} favoriteMovieInfo.description - the description of the movie
- * @property {number} favoriteMovieInfo.id - unique id od the movie
+ * @property {Array<string>} MovieType.genres - the mogenre of the movie
+ * @property {string} MovieType.image - the url of the image of the movie
+ * @property {string} MovieType.title - the title of the movie
+ * @property {string} MovieType.description - the description of the movie
+ * @property {number} MovieType.id - unique id od the movie
  */
 
 /**
